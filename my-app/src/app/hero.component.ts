@@ -6,7 +6,7 @@ import { HeroService } from './hero.service';
 
 
 @Component({
-  selector: 'app-root',
+  selector: 'my-heroes',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   providers: [HeroService]
@@ -14,7 +14,7 @@ import { HeroService } from './hero.service';
 
 
 
-export class AppComponent {
+export class HeroesComponent {
   constructor(private heroService: HeroService) { }
   title = 'my learn first';
   title1 = 'my learn first';
